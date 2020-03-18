@@ -37,10 +37,10 @@ df.select(df["number"] + 10)
 ## Rows 
 * A row is nothing more than a record of data. Each record in a DataFrame must be of type Row, as we can see when we collect the following DataFrames. We can create these rows manually from SQL, from Resilient Distributed Datasets (RDDs), from data sources, or manually from scratch. Here, we create one by using a range:
 
-``
+```
 # in Python
 spark.range(2).collect()
-``
+```
 
 
 

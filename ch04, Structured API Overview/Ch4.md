@@ -54,6 +54,7 @@ spark.range(2).collect()
 
 
 |Data type|Value type in Python|API to access or create a data type|
+|---|---|----|
 |ByteType|int or long. Note: Numbers will be converted to 1-byte signed integer numbers at runtime. Ensure that numbers are within the range of –128 to 127.|ByteType()|
 |ShortType|int or long. Note: Numbers will be converted to 2-byte signed integer numbers at runtime. Ensure that numbers are within the range of –32768 to 32767.|ShortType()|
 |IntegerType|int or long. Note: Python has a lenient definition of “integer.” Numbers that are too large will be rejected by Spark SQL if you use the IntegerType(). It’s best practice to use LongType.|IntegerType()|

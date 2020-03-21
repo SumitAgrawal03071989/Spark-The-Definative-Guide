@@ -11,5 +11,15 @@
 * A schema is a StructType made up of a number of fields, StructFields, that have a name, type, a Boolean flag which specifies whether that column can contain missing or null values,
 * Schemas can contain other StructTypes (Spark’s complex types).
 
-### Columns
+## DataFrame Transformations
+
+* We can add rows or columns
+* We can remove rows or columns
+* We can transform a row into a column (or vice versa)
+* We can change the order of rows based on the values in columns
+
+
+
+
+
 

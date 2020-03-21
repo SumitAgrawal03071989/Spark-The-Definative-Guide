@@ -1,0 +1,8 @@
+Installation Guide.
+
+Download spark-2.4.5 from https://spark.apache.org/downloads.html this link.
+Unzip the file
+move unzipped folder to /usr/local/spark-2.4.5/ location
+Set export SPARK_HOME=/usr/local/spark-2.4.5 as environment variable.
+from any location fire pyspark as command.
+This should launch jupyter notebook 

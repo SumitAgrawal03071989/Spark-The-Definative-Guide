@@ -65,6 +65,19 @@ spark.range(2).collect()
 
 ## Overview of Structured API Execution
 
+let’s walk through the execution of a single structured API query from user code to executed code. Here’s an overview of the steps:
+
+1. Write DataFrame/Dataset/SQL Code.
+2. If valid code, Spark converts this to a Logical Plan.
+3. Spark transforms this Logical Plan to a Physical Plan, checking for optimizations along the way.
+4. Spark then executes this Physical Plan (RDD manipulations) on the cluster.
+
+
+
+
+
+
+
 
 
 

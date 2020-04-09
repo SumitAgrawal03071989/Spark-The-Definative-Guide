@@ -7,4 +7,5 @@ spark-submit --master local[1] --packages org.apache.spark:spark-sql-kafka-0-10_
 /Users/sumitagrawal/PSpace/Projects/spark/CH21-Structured_Streaming_Basics
 
 
+// To list out kernels 
 jupyter kernelspec list

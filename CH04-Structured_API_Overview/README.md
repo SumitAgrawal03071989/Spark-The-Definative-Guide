@@ -16,6 +16,7 @@ The majority of the Structured APIs apply to both batch and streaming computatio
 ## Overview of structured Spark Types
 
 * Spark is effectively a programming language of its own. Internally, Spark uses an engine called Catalyst that maintains its own type information through the planning and processing of work
+* Even if we use Spark’s Structured APIs from Python or R, the majority of our manipulations will operate strictly on Spark types, not Python types. For example, the following code does not perform addition in Scala or Python; it actually performs addition purely in Spark:
 
 ```
 # in Python

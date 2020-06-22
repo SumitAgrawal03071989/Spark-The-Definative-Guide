@@ -6,3 +6,7 @@ move unzipped folder to /usr/local/spark-2.4.5/ location
 Set export SPARK_HOME=/usr/local/spark-2.4.5 as environment variable.
 from any location fire pyspark as command.
 This should launch jupyter notebook 
+
+
+# in case when we are getting connection refused error while loading data from file to DataFrame.
+https://stackoverflow.com/questions/31743586/apache-spark-running-locally-giving-refused-connection-error

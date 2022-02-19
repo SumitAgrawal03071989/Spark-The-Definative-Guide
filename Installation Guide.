@@ -1,3 +1,30 @@
+PySpark with Jupyter notebook + Spark UI.
+
+1. Install Spark with pip 
+
+```
+pip install pyspark
+```
+
+2. add env variables as below.
+
+```
+export SPARK_HOME=/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyspark
+export PATH=$SPARK_HOME/bin:$PATH
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port=8889'
+```
+
+in jupyter notebook run below command to check the SparkUI URL and
+
+```
+sc.uiWebUrl
+```
+
+
+
+
 Installation Guide.
 
 Download spark-2.4.5 from https://spark.apache.org/downloads.html this link.

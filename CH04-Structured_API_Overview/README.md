@@ -76,9 +76,3 @@ let’s walk through the execution of a single structured API query from user co
 
 
 
-
-
-
-
-
-
